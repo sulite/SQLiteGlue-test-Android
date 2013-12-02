@@ -1,9 +1,9 @@
-package org.sqlg;
+package io.sulite;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-import org.sqlg.SQLiteGlue;
+//import org.sqlg.SQLiteGlue;
 
 import java.io.File;
 
@@ -11,7 +11,7 @@ public class SQLiteGlueTest extends Activity
 {
   static
   {
-    System.loadLibrary("sqlg");
+    System.loadLibrary("suliteicu");
   }
 
   /** Called when the activity is first created. */
